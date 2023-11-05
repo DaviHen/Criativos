@@ -25,7 +25,7 @@ body {
 
 header {
     background-image: linear-gradient(90deg, white 5%, transparent),
-    url('images/teste.png');
+    url('images/headerimage.png');
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -292,7 +292,6 @@ main{
 }
 
 .card-img{
-    background-repeat: no-repeat;
     transition: transform 1s;
     position: absolute;
 }
@@ -308,6 +307,7 @@ main{
     width: 100%;
     height: 100%;
     transform: scale(1.1);
+    background-repeat: no-repeat;
 }
 
 .card-img2{
@@ -317,6 +317,7 @@ main{
     width: 100%;
     height: 100%;
     transform: scale(1.1);
+    background-repeat: no-repeat;
 }
 
 
@@ -392,6 +393,7 @@ main{
     padding: 10px;
     background-color: var(--RichElectricBlue);
     color: #fff;
+    margin-top: -10px;
 }
 
 
@@ -537,11 +539,6 @@ footer{
 
 
 @media (max-width: 1280px) {
-
-    header{
-        background-position: center;
-    }
-    
     .header-content {
         position: absolute;
         top: 50%;
@@ -588,6 +585,7 @@ footer{
 
     .card-wrapper{
         width: 50%;
+        margin: 5% 0;
     }
     
     .card-img{     
@@ -606,7 +604,7 @@ footer{
 @media (max-width: 800px) {
     header {
         background-image: linear-gradient(90deg, white -10%, transparent),
-        url('images/teste.png');
+        url('images/headerimage.png');
         background-size: cover;
     }
 
